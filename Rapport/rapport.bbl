@@ -1,8 +1,15 @@
 \begin{thebibliography}{1}
 
-\bibitem{goossens93}
-Michel Goossens, Frank Mittlebach, and Alexander Samarin.
-\newblock {\em The LaTeX Companion}.
-\newblock Addison-Wesley, Reading, Massachusetts, 1993.
+\bibitem{brandtetal}
+Sami~S. Brandt, Gopal Karemore, and Mads Nielsen.
+\newblock Anatomically oriented breast coordinate system for mammogram
+  analysis.
+\newblock draft, Januar 2010.
+
+\bibitem{houghbasic}
+Richard~O. Duda and Peter~E. Hart.
+\newblock Use of the hough transformation to detect lines and curves in
+  pictures.
+\newblock {\em Comm. ACM}, 15(1):11--15, 1972.
 
 \end{thebibliography}
