@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.3.6)  6 MAR 2012 13:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.3.6)  6 MAR 2012 14:08
 entering extended mode
 **C:/Users/Malte/Documents/Bachelorprojekt/breast-point-analysis/Rapport/rappor
 t.tex
@@ -694,23 +694,26 @@ e.pdf>]
 (C:\Users\Malte\Documents\Bachelorprojekt\breast-point-analysis\Rapport\rapport
 .toc)
 \tf@toc=\write3
- [2{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [3]
+ [2{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(C:\Users\Malte\Documents\Bachelorprojekt\breast-point-analysis\Rapport\rapport
+.bbl) [3]
 (C:\Users\Malte\Documents\Bachelorprojekt\breast-point-analysis\Rapport\rapport
 .aux) ) 
 Here is how much of TeX's memory you used:
- 5149 strings out of 494045
- 70732 string characters out of 3148388
- 155526 words of memory out of 3000000
- 8363 multiletter control sequences out of 15000+200000
- 4853 words of font info for 18 fonts, out of 3000000 for 9000
+ 5155 strings out of 494045
+ 70936 string characters out of 3148388
+ 156526 words of memory out of 3000000
+ 8365 multiletter control sequences out of 15000+200000
+ 5199 words of font info for 19 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  39i,18n,49p,295b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on rapport.pdf (3 pages, 87627 bytes).
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on rapport.pdf (3 pages, 107905 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
