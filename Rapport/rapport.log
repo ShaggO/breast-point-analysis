@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.3.6)  8 MAR 2012 10:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.3.6)  8 MAR 2012 10:22
 entering extended mode
 **C:/Users/Malte/Documents/Bachelorprojekt/breast-point-analysis/Rapport/rappor
 t.tex
@@ -697,27 +697,36 @@ e.pdf>]
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+<grafik/brystkoordinatsystem.png, id=25, 379.4175pt x 522.45187pt>
+File: grafik/brystkoordinatsystem.png Graphic file (type png)
+
+<use grafik/brystkoordinatsystem.png>
+Package pdftex.def Info: grafik/brystkoordinatsystem.png used on input line 84.
+
+(pdftex.def)             Requested size: 379.41656pt x 522.45059pt.
+
 (C:\Users\Malte\Documents\Bachelorprojekt\breast-point-analysis\Rapport\rapport
 .bbl) [1
 
-]
+] [2 <C:/Users/Malte/Documents/Bachelorprojekt/breast-point-analysis/Rapport/gr
+afik/brystkoordinatsystem.png (PNG copy)>]
 (C:\Users\Malte\Documents\Bachelorprojekt\breast-point-analysis\Rapport\rapport
 .aux) ) 
 Here is how much of TeX's memory you used:
- 5180 strings out of 494045
- 71211 string characters out of 3148388
- 162526 words of memory out of 3000000
- 8383 multiletter control sequences out of 15000+200000
+ 5189 strings out of 494045
+ 71413 string characters out of 3148388
+ 163526 words of memory out of 3000000
+ 8389 multiletter control sequences out of 15000+200000
  8274 words of font info for 30 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 39i,18n,49p,936b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,18n,49p,1170b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on rapport.pdf (4 pages, 110373 bytes).
+Output written on rapport.pdf (5 pages, 207547 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

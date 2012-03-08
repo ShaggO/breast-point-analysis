@@ -75,9 +75,16 @@ Forskning i detektion af brystcancer er udbredt for tiden, hvorfor der naturligv
 
 Segmenteringsmetoden, som vi derfor ønsker at automatisere, er beskrevet i \cite{brandtetal}. Denne segmentering går helt basalt ud på at finde de tre punkter $A$, $B$ og $C$. Mammografier viser typisk både en del af brystmuskulaturen samt selve brystvævet på trods af, at man typisk kun ønsker at analysere brystvævet for at forsøge at detektere tegn på brystcancer. Vi ønsker derfor, at brystmuskulaturen så vidt muligt bliver udeladt fra vores segmentering. 
 
-Brystmuskulaturen kan have forskellige former fra patient til patient, men det er typisk muligt at modellere grænsen mellem brystmuskulaturen og brystvævet som en tilnærmelsesvis lige linje. Vi definerer derfor en lige linje på brystmuskulaturens kant (pektorallinjen). Selve grænsen mellem brystvævet og baggrunden har typisk form som en parabel, hvorfor vi definerer en parabelbrystgrænse ved en approksimation. Punkterne $B$ og $C$ definerer vi da som de to skæringspunkter mellem pektorallinjen og parabelbrystgrænsen. Da brystvorten og dermed også punktet $A$ naturligvis ligger enten direkte på parabelbrystgrænsen eller meget tæt på denne, men brystvorten generelt er svær at identificere på mammografier, definerer vi blot punktet $A$ som det punkt på parabelbrystgrænsen, der ligger længst væk fra pektorallinjen.
+Brystmuskulaturen kan have forskellige former fra patient til patient, men det er typisk muligt at modellere grænsen mellem brystmuskulaturen og brystvævet som en tilnærmelsesvis lige linje. Vi definerer derfor en lige linje på brystmuskulaturens kant (pektorallinjen). Selve grænsen mellem brystvævet og baggrunden har typisk form som en parabel, hvorfor vi definerer en parabelbrystgrænse ved en approksimation. Punkterne $B$ og $C$ definerer vi da som de to skæringspunkter mellem pektorallinjen og parabelbrystgrænsen. Da brystvorten og dermed også punktet $A$ naturligvis ligger enten direkte på parabelbrystgrænsen eller meget tæt på denne, men brystvorten generelt er svær at identificere på mammografier, definerer vi blot punktet $A$ som det punkt på parabelbrystgrænsen, der ligger længst væk fra pektorallinjen. Figur~\ref{fig:bks}, side~\pageref{fig:bks} viser et eksempel på identifikationen af $A$, $B$ og $C$, hvor den gule linje viser brystvævets afgrænsninger og de røde stiplede linjer viser koordinatsystemets afgrænsninger.
 
 De netop beskrevne punkter $A$, $B$ og $C$, er de punkter, som vi ønsker at finde automatisk. Disse punkter danner grundlaget for den efterfølgende dynamiske segmentering, som vi imidlertid ikke ønsker at beskæftige os med.
+
+\begin{figure}
+	\centering
+		\includegraphics{grafik/brystkoordinatsystem.png}
+	\caption{Illustration af brystkoordinatsystemet, fra \cite{brandtetal}, Fig. 1, side 5. De gule linjer viser brystvævets afgrænsninger og de røde stiplede linjer viser koordinatsystemets afgrænsninger}
+	\label{fig:bks}
+\end{figure}
 
 
 \section{Hough transformation}
