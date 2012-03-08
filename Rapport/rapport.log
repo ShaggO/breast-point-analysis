@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.3.6)  7 MAR 2012 16:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.3.6)  8 MAR 2012 10:01
 entering extended mode
 **C:/Users/Malte/Documents/Bachelorprojekt/breast-point-analysis/Rapport/rappor
 t.tex
@@ -704,18 +704,18 @@ e.pdf>]
 (C:\Users\Malte\Documents\Bachelorprojekt\breast-point-analysis\Rapport\rapport
 .aux) ) 
 Here is how much of TeX's memory you used:
- 5163 strings out of 494045
- 71037 string characters out of 3148388
- 156526 words of memory out of 3000000
- 8373 multiletter control sequences out of 15000+200000
- 5507 words of font info for 20 fonts, out of 3000000 for 9000
+ 5180 strings out of 494045
+ 71211 string characters out of 3148388
+ 162526 words of memory out of 3000000
+ 8383 multiletter control sequences out of 15000+200000
+ 8274 words of font info for 30 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 39i,18n,49p,295b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,18n,49p,936b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on rapport.pdf (4 pages, 107444 bytes).
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on rapport.pdf (4 pages, 110373 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

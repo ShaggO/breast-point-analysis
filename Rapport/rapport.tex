@@ -67,9 +67,23 @@
 \pagenumbering{arabic}
 
 \section{Indledning}
-\ldots
+
+\section{Brystkoordinatsystemet}
+Da denne rapport omhandler automatisk segmentering af mammografier, er det naturligt at starte med at beskrive selve segmenteringen af mammografier, før vi begynder at beskrive automatiseringen af denne.
+
+Forskning i detektion af brystcancer er udbredt for tiden, hvorfor der naturligvis bliver udviklet forskellige segmenteringsmetoder. Da man imidlertid er interesseret i ikke blot at kunne sammenligne et mammografi for en patients venstre bryst med det tilsvarende mammografi for det højre bryst, men man derimod ønsker at kunne sammenligne mammografier fra flere patienter og lave statistik over disse, er vi interesserede i at segmentere mammografierne dynamisk. Dette skyldes den naturlige variation i størrelsen samt formen af bryster.
+
+Segmenteringsmetoden, som vi derfor ønsker at automatisere, er beskrevet i \cite{brandtetal}. Denne segmentering går helt basalt ud på at finde de tre punkter $A$, $B$ og $C$. Mammografier viser typisk både en del af brystmuskulaturen samt selve brystvævet på trods af, at man typisk kun ønsker at analysere brystvævet for at forsøge at detektere tegn på brystcancer. Vi ønsker derfor, at brystmuskulaturen så vidt muligt bliver udeladt fra vores segmentering. 
+
+Brystmuskulaturen kan have forskellige former fra patient til patient, men det er typisk muligt at modellere grænsen mellem brystmuskulaturen og brystvævet som en tilnærmelsesvis lige linje. Vi definerer derfor en lige linje på brystmuskulaturens kant (pektorallinjen). Selve grænsen mellem brystvævet og baggrunden har typisk form som en parabel, hvorfor vi definerer en parabelbrystgrænse ved en approksimation. Punkterne $B$ og $C$ definerer vi da som de to skæringspunkter mellem pektorallinjen og parabelbrystgrænsen. Da brystvorten og dermed også punktet $A$ naturligvis ligger enten direkte på parabelbrystgrænsen eller meget tæt på denne, men brystvorten generelt er svær at identificere på mammografier, definerer vi blot punktet $A$ som det punkt på parabelbrystgrænsen, der ligger længst væk fra pektorallinjen.
+
+De netop beskrevne punkter $A$, $B$ og $C$, er de punkter, som vi ønsker at finde automatisk. Disse punkter danner grundlaget for den efterfølgende dynamiske segmentering, som vi imidlertid ikke ønsker at beskæftige os med.
+
 
 \section{Hough transformation}
+\ldots
+
+\section{Konklusion}
 \ldots
 
 \bibliographystyle{plain}
