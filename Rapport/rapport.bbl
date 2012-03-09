@@ -6,10 +6,4 @@ Sami~S. Brandt, Gopal Karemore, and Mads Nielsen.
   analysis.
 \newblock draft, Januar 2010.
 
-\bibitem{houghbasic}
-Richard~O. Duda and Peter~E. Hart.
-\newblock Use of the hough transformation to detect lines and curves in
-  pictures.
-\newblock {\em Comm. ACM}, 15(1):11--15, 1972.
-
 \end{thebibliography}

@@ -1,4 +1,9 @@
 \select@language {danish}
-\contentsline {section}{\numberline {1}Executive summary}{3}
-\contentsline {section}{\numberline {2}Indledning}{3}
-\contentsline {section}{\numberline {3}Hough transformation}{3}
+\contentsline {section}{\numberline {1}Indledning}{1}
+\contentsline {section}{\numberline {2}Brystkoordinatsystemet}{1}
+\contentsline {section}{\numberline {3}Den overordnede proces}{1}
+\contentsline {section}{\numberline {4}Simpel detektion af kantpunkter}{1}
+\contentsline {section}{\numberline {5}Hough transformation}{1}
+\contentsline {section}{\numberline {6}Diskussion om succesmetrikken}{1}
+\contentsline {section}{\numberline {7}Test og sammenligning af implementeringen}{3}
+\contentsline {section}{\numberline {8}Konklusion}{3}
